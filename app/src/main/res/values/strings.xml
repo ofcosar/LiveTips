@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LiveTips</string>
+    <string name="corner">corner:</string>
+    <string name="goal">goal:</string>
+    <string name="duration">duration:</string>
+    <string name="GoalTips">goal tip:</string>
+    <string name="cornerTips">corner tip:</string>
+
+</resources>

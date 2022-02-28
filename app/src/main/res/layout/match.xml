@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/team1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ddf" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal" />
+
+            <TextView
+                android:id="@+id/goalNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/corner" />
+
+            <TextView
+                android:id="@+id/cornerNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/duration" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0">
+
+        </TextView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/GoalTips" />
+
+            <TextView
+                android:id="@+id/goalT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cornerTips" />
+
+            <TextView
+                android:id="@+id/cornerT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/team2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdas" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goal" />
+
+            <TextView
+                android:id="@+id/goalNum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/corner" />
+
+            <TextView
+                android:id="@+id/cornerNum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
